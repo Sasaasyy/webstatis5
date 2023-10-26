@@ -1,0 +1,57 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #200b0b;
+  color: white;
+  background-image: url(tvd.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background: linear-gradient(#6e1015, #200b0b);
+  outline-style: solid;
+  outline-color: black;
+}
+
+.header {
+  padding: 15px;
+  background: linear-gradient(#3a0709, #200b0b);
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.container .header ul {
+  margin-left: -40px;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(206, 190, 193);
+}
+
+.header a:hover {
+  background-color: #460a0d;
+  color: white;
+}
+
+.hero {
+  height: 380px;
+  background-image: url(tvd1.jpeg);
+  background-size: cover;
+  background-position: 100%;
+}
+
+.content .penulis {
+  margin-top: -15px;
+  font-size: 16px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: #ddacae;
+}
